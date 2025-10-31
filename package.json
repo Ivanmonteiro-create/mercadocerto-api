@@ -1,12 +1,5 @@
 {
   "name": "mercadocerto-api",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "start": "vercel dev",
-    "dev": "vercel dev"
-  },
-  "dependencies": {
-    "@vercel/node": "^3.0.0"
-  }
+  "private": true
 }
