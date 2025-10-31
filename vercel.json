@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/*.js": {
+    "api/*.ts": {
       "runtime": "nodejs20.x"
     }
   },
   "routes": [
-    { "src": "/api/precos", "dest": "/api/precos.js" }
+    { "src": "/api/precos", "dest": "/api/precos.ts" }
   ]
 }
