@@ -1,1 +1,15 @@
-
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/precos.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/precos",
+      "dest": "api/precos.ts"
+    }
+  ]
+}
