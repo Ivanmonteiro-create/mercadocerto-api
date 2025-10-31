@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/precos.ts",
+      "src": "api/precos.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/precos",
-      "dest": "api/precos.ts"
+      "dest": "api/precos.js"
     }
   ]
 }
