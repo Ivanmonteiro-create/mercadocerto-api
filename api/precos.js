@@ -1,4 +1,4 @@
-// api/precos.ts
+// api/precos.js
 
 import { VercelRequest, VercelResponse } from "@vercel/node";
 
