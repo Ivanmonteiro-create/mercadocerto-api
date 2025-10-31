@@ -1,7 +1,8 @@
-// api/precos.js
+// api/precos.ts
 
-export default function handler(req, res) {
-  // aqui vão os dados que o app vai buscar
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+
+export default function handler(req: VercelRequest, res: VercelResponse) {
   const dados = [
     // arroz
     { nome: "Arroz Agulha 1kg", mercado: "Minipreço", preco: 0.9 },
