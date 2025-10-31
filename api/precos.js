@@ -1,3 +1,5 @@
+// api/precos.js
+
 export default function handler(req, res) {
   const produtos = [
     {
@@ -22,9 +24,5 @@ export default function handler(req, res) {
     }
   ];
 
-  res.status(200).json({
-    ok: true,
-    updatedAt: new Date().toISOString(),
-    data: produtos
-  });
+  res.status(200).json(produtos);
 }
